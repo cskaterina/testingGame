@@ -1,0 +1,5 @@
+:init
+show_menu main
+
+:newgame
+change_scene res://game/rooms/r1_agora.tscn

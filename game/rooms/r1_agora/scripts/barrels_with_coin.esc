@@ -1,0 +1,6 @@
+:look
+say player "A, a coin..."
+say player "I can't reach it!"
+say player "But I need to take it..."
+stop
+

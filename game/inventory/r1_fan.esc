@@ -1,0 +1,16 @@
+:look
+set_angle player 180
+#accept_input NONE
+#walk player interact_with_fan_location
+say player "A, a fan..." [!i/r1_fan]
+say player "I think it can be useful..." [!i/r1_fan]
+#accept_input ALL
+stop
+
+:pick_up
+#accept_input NONE
+inventory_add r1_fan
+set_active r1_fan false
+#accept_input ALL
+stop
+

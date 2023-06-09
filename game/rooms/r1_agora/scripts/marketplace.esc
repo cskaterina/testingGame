@@ -1,0 +1,14 @@
+
+#1
+:look
+set_angle player 180
+say player "Maybe I can buy a map here..."
+stop
+
+#2
+:talk
+say player "Greetings"
+say marketplace "Hello, what can I do for you?"
+say player "I need a map"
+say marketplace "You must pay me!"
+stop
